@@ -1,2 +1,5 @@
 # saps-qls
-On the self-adjustment of privacy safeguards for query log streams
+## On the self-adjustment of privacy safeguards for query log streams
+
+Internet-based services process and store numerous search queries around the globe. The use of web search engines, such as Bing and Google, as well as personal assistants (e.g., Alexa and Cortana) and task specific systems (e.g., YouTube, Netflix, Amazon) are relevant examples. The queries associated to such services may be stored and sold out for profit. Before doing so, personal and sensitive information must be sanitized, as requested by current 
+regulations.  This can be cumbersome for some organizations. We present an automated solution for anonymizing unstructured data, like the one used within query logs. Our solution uses a light-weight probabilistic k-anonymity approach, which allows verifiable real-time privacy protection. It addresses previous limitations and improves performance. We validate the feasibility of the approach, under some evaluation metrics including data utility, privacy and speed.
